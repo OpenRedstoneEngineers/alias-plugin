@@ -1,2 +1,4 @@
 aliases:
-    something: toggledownfall
+  something:
+  - toggledownfall {player.uuid}
+  - time set $1

@@ -6,7 +6,7 @@
 
 	<groupId>org.openredstone</groupId>
 	<artifactId>alias</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<name>Alias</name>
 	<inceptionYear>2015</inceptionYear>
 	<url>https://github.com/OpenRedstoneEngineers/alias-plugin</url>
