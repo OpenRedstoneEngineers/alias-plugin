@@ -1,6 +1,13 @@
 name: Alias
 main: org.openredstone.alias.Alias
-version: 1.1.0
+version: 1.2.0
 description: >
              A plugin to define simple aliases.
 commands:
+  alias:
+    description: Manage the plugin.
+
+permissions:
+  alias.reload:
+    description: Reload the alias config.
+    default: op

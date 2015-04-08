@@ -2,3 +2,5 @@ aliases:
   something:
   - toggledownfall {player.uuid}
   - time set $1
+  __join:
+  - say hi
