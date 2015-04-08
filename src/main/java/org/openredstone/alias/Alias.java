@@ -147,7 +147,7 @@ public class Alias extends JavaPlugin implements Listener
 		{
 			for (String aliasPart : aliasParts)
 			{
-				if (aliasPart.startsWith("{no-op}"))
+				if (aliasPart.startsWith("__no-op"))
 					continue;
 
 				String cmd = parseAliasPart(aliasPart, tokens, player);
@@ -177,7 +177,7 @@ public class Alias extends JavaPlugin implements Listener
 			if (num >= tokens.length)
 				throw new Exception("You are missing some arguments.");
 
-			if (argMatcher.group(2).equals("+"))
+			if (argMatcher.group(2) != null && argMatcher.group(2).equals("+"))
 			{
 				String res = "";
 
